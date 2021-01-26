@@ -6,10 +6,13 @@ require_relative 'lib/player'
 binding.pry
 player1 = Player.new("José")
 player2 = Player.new("Josiane")
+
 puts "Current players states: "
+puts
 puts player1.player_state
-p player2.player_state
+puts player2.player_state
 puts "FIGHT !"
+puts
 while player1.health > 0 && player2.health > 0 do
   if player2.health <= 0 || player1.health <= 0 
     break
@@ -23,6 +26,7 @@ while player1.health > 0 && player2.health > 0 do
   puts player1.player_state
   puts player2.player_state
   puts "------------"
+  puts
   end
 end
 
