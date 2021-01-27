@@ -1,7 +1,7 @@
 require 'bundler'
 Bundler.require
 
-require_relative 'lib/player'
+#require_relative 'lib/player'
 
 def Game
   attr_accessor :human_player, :ennemies, :total_ennemies
