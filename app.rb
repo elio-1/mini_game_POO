@@ -3,7 +3,7 @@ Bundler.require
 
 require_relative 'lib/game'
 require_relative 'lib/player'
-binding.pry
+
 player1 = Player.new("José")
 player2 = Player.new("Josiane")
 
@@ -29,4 +29,6 @@ while player1.health > 0 && player2.health > 0 do
   puts
   end
 end
+
+binding.pry
 
